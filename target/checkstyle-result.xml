@@ -2,4 +2,7 @@
 <checkstyle version="9.3">
 <file name="/home/takbaba/workspace/maven_project/src/main/java/BadNaming.java">
 </file>
+<file name="/home/takbaba/workspace/maven_project/src/main/java/Anotherfile.java">
+<error line="4" column="9" severity="error" message="Line contains a tab character." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+</file>
 </checkstyle>
