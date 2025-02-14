@@ -11,7 +11,7 @@
 
   <build>
     <plugins>
-      <!-- <plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
         <version>3.6.0</version>
@@ -32,7 +32,7 @@
                 </goals>
             </execution>
         </executions>
-      </plugin> -->
+      </plugin>
       <!-- <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-pmd-plugin</artifactId>
@@ -53,7 +53,7 @@
               <printFailingErrors>true</printFailingErrors>
           </configuration>
       </plugin> -->
-      <plugin>
+      <!-- <plugin>
           <groupId>com.diffplug.spotless</groupId>
           <artifactId>spotless-maven-plugin</artifactId>
           <version>2.37.0</version>
@@ -66,31 +66,31 @@
           </executions>
           <configuration>
               <java>
-                  <!-- <googleJavaFormat/> -->
-                  <!-- <indentWithSpaces>4</indentWithSpaces> -->
+                  <googleJavaFormat/>
+                  <indentWithSpaces>4</indentWithSpaces>
                   <indent>
                       <spaces>true</spaces>
                       <spacesPerTab>4</spacesPerTab>
                   </indent>
               </java>
           </configuration>
-      </plugin>
+      </plugin> -->
     </plugins>
 
   </build>
-  <!-- <dependencies>
+  <dependencies>
       <dependency>
           <groupId>com.puppycrawl.tools</groupId>
           <artifactId>checkstyle</artifactId>
           <version>10.12.3</version> 
       </dependency>
-  </dependencies> -->
-  <dependencies>
+  </dependencies>
+  <!-- <dependencies>
       <dependency>
           <groupId>net.sourceforge.pmd</groupId>
           <artifactId>pmd-java</artifactId>
           <version>7.0.0</version>
       </dependency>
-  </dependencies>
+  </dependencies> -->
 
 </project>
