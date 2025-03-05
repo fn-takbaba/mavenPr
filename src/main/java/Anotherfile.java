@@ -4,6 +4,7 @@ public class Anotherfile {
         	  System.err.println("");
               String a = "";
               System.out.print("hey");
+              String b = "Brand NEW STRING";
     }
 }
 
